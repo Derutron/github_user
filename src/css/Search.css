@@ -40,18 +40,6 @@ input {
   } 
 
 
-  /* .bg2Dark {
-    flex: 1;
-    border: none;
-    outline: none;
-    padding: 20px;
-    background-color: #ce1d1d;
-    width: 400px;
-    height: 20px;
-    margin-left: 200px;
-    margin-right: 396px;
-  } */
-
 
 
 input::placeholder {
@@ -77,14 +65,6 @@ input::placeholder {
     flex-shrink: 0;
       }
 
-      .rectangle{
-    margin-right: 10px;
-    width: 106px;
-    height: 50px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: #0079FF;
-      }
 
       .search-text{
     color: #FFF;
@@ -96,5 +76,42 @@ input::placeholder {
     margin-top: 12px;
     margin-left: 24px;
       }
+
+
+      
+button {
+  border-radius: 28px; 
+  background: #007BFF; 
+  color: white; 
+  cursor: pointer;
+  border: none;
+  width: 106px;
+height: 50px;
+flex-shrink: 0;
+}
+
+button:hover {
+  background: #0056b3; /* Example background color on hover */
+}
+
+
+.error-container{
+  position: absolute;
+  right: 120px;
+  top: 30px;
+}
+
+.error-message{
+  color: red;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+.error-message1{
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
 
 

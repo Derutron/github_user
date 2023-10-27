@@ -25,6 +25,9 @@ top: 311px;
 .bitmap{
     margin-top: 48px;
     margin-left: 48px;
+    width: 117px;
+    height: 117px;
+    border-radius: 50px;
 }
 
 .cardgroup1{
@@ -254,7 +257,7 @@ margin-top: 17px;
 }
 
 .cardgroup13{
-    width: 430px;
+    width: 490px;
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -274,6 +277,7 @@ margin-top: 17px;
     display: flex;
     justify-content: left;
     align-items: center;
+
 }
 
 .cardtext8{
