@@ -45,9 +45,10 @@ const Search = () => {
         )}
       </div>
 
-      <button onClick={handleSubmit}>
+      <div className="button" onClick={handleSubmit}>
         <p className="search-text">Search</p>
-      </button>
+      </div>
+      
     </div>
   );
 };

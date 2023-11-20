@@ -1,25 +1,27 @@
 .rectangle-copy{
 width: 730px;
 height: 419px;
+margin-right: auto;
+margin-left: auto;
 flex-shrink: 0;
 border-radius: 15px;
 background: #FEFEFE;
 box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20);
-margin-left: 355px;
-position: absolute;
-top: 311px;
+position: relative;
+margin-top: 10px;
 }
 
 .rectangle-copydark{
-    width: 730px;
+width: 730px;
 height: 419px;
+margin-right: auto;
+margin-left: auto;
 flex-shrink: 0;
 border-radius: 15px;
 background: #1E2A47;
 /* box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20); */
-margin-left: 355px;
-position: absolute;
-top: 311px;
+position: relative;
+margin-top: 10px;
 }
 
 .bitmap{
@@ -32,10 +34,12 @@ top: 311px;
 
 .cardgroup1{
     display: flex;
+ 
 }
 
 .cardtext1{
-    color: #2B3442;
+
+color: #2B3442;
 font-family: monospace;
 font-size: 26px;
 font-style: normal;
@@ -44,6 +48,7 @@ line-height: normal;
 }
 
 .cardtext1a{
+   
     color: #fdfeff;
     font-family: monospace;
     font-size: 26px;
@@ -52,8 +57,10 @@ line-height: normal;
     line-height: normal;
 }
 
+
+/* Date light mode */
 .cardtext2{
-    color: #697C9A;
+    color: #9c73af;
 text-align: right;
 font-family: monospace;
 font-size: 15px;
@@ -62,6 +69,8 @@ font-weight: 400;
 line-height: normal;
 }
 
+
+/* Date Dark mode */
 .cardtext2a{
     color: #ffffff;
 text-align: right;
@@ -72,6 +81,8 @@ font-weight: 400;
 line-height: normal;
 }
 
+
+/* Login name */
 .cardtext3{
     color: #0079FF;
 font-family: monospace;
@@ -82,8 +93,8 @@ line-height: normal;
 width: 79px;
 height: 24px;
 position: absolute;
-left: 202px;
-top: 85px;
+left: 195px;
+top: 90px;
 }
 
 .cardgroup4{
@@ -302,3 +313,79 @@ margin-top: 17px;
 margin-left: 20px;
 
 }
+
+
+
+
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+ 
+    .rectangle-copy,
+    .rectangle-copydark{
+        width: 630px;
+        margin-right: 200px;
+        margin-left: 200px;
+        }
+    
+        /* Date Dark mode */
+    .cardtext2a{
+        position: relative;
+        top: 60px;
+        left: -295px;
+    }
+
+    /* Date light mode */
+    .cardtext2{
+        position: relative;
+        top: 60px;
+        left: -295px;
+    }
+
+    .cardgroup4{
+        position: relative;
+        top: 80px;
+        left: -110px;
+    }
+
+    .cardgroup5{
+        position: relative;
+        top: -80px;
+        left: -300px;
+    }
+  }
+  
+  
+  @media screen and (min-width: 701px) and (max-width: 900px) {
+    .rectangle-copy,
+    .rectangle-copydark{
+        width: 530px;
+        margin-right: 100px;
+        margin-left: 100px;
+        }
+  }
+  
+  
+  @media screen and (min-width: 501px) and (max-width: 700px) {
+    .rectangle-copy,
+    .rectangle-copydark{
+        width: 430px;
+        margin-right: 50px;
+        margin-left: 50px;
+        }
+  }
+  
+  
+  @media screen and (max-width: 500px) {
+    .rectangle-copy,
+    .rectangle-copydark{
+        width: 330px;
+        margin-right: 10px;
+        margin-left: 10px;
+        }
+  } 
+  
+  
+  
+  
+  
+  
