@@ -18,11 +18,11 @@ function App() {
       <Navigation />
       <Search />
       {loading ? (
-        <h1 className={darkTheme ? 'loading text-light' : 'loading'}>Loading</h1>
+        <h1 className={!darkTheme ? 'loading_dark' : 'loading_light'}>Loading</h1>
       ) : user ? (
         <Card />
       ) : (
-        <h1 className={darkTheme ? 'text-light' : 'text-light'}>Please no User</h1>
+        <h1 className={!darkTheme ? 'text-dark' : 'text-light'}>Please no User</h1>
       )}
     </div>
   );

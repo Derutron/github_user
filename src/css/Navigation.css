@@ -89,15 +89,14 @@ flex-shrink: 0;
  
     .group6{
         width: 630px;
-        margin-right: 200px;
-        margin-left: 200px;
+        margin-left: 150px;
         }
   }
   
   /* Media query for mobile screens */
   @media screen and (min-width: 701px) and (max-width: 900px) {
     .group6{
-        width: 530px;
+        width: 450px;
         margin-right: 100px;
         margin-left: 100px;
         }
@@ -106,7 +105,7 @@ flex-shrink: 0;
   
   @media screen and (min-width: 501px) and (max-width: 700px) {
     .group6{
-        width: 430px;
+        width: 380px;
         margin-right: 50px;
         margin-left: 50px;
         }
@@ -116,8 +115,7 @@ flex-shrink: 0;
   @media screen and (max-width: 500px) {
     .group6{
         width: 330px;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-left: 50px;
         }
   }
   

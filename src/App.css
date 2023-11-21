@@ -1,3 +1,11 @@
+/* ... (your other styles) */
+
+
+  
+  
+
+
+
 .App{
 width: 1440px;
 height: 800px;
@@ -10,18 +18,141 @@ background: rgb(221, 125, 125);
     background: #141D2F;
 }
 
-.loading{
+.loading_light{
+    position: relative;
+    left: 600px;
+    top: 120px;
+    color: white;
+}
+    .loading_dark{
     position: relative;
     left: 600px;
     top: 120px;
   
 }
 
-.text-light {
-    
+.text-light,
+    .text-dark {
     position: relative;
     left: 600px;
     top: 120px;
-    
   }
+
+
+  
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+ 
+    .App,
+    .Appdark{
+        width: 1000px;
+        }
+        
+   /* Loading */
+    .loading_light{
+        position: relative;
+        left: 400px;
+        top: 120px;
+        color: white;
+    }
+
+    .loading_dark{
+        position: relative;
+        left: 400px;
+        top: 120px;
+    }
+    /* no user found */
+    .text-light,
+    .text-dark{
+        position: relative;
+        left: 350px;
+        top: 120px;
+      }
+  }
+  
+  
+  @media screen and (min-width: 701px) and (max-width: 900px) {
+
+    .App,
+    .Appdark{
+        width: 650px;
+        }
+
+    .loading_light{
+        position: relative;
+        left: 250px;
+        top: 120px;
+        color: white;
+    }
+
+    .loading_dark{
+        position: relative;
+        left: 250px;
+        top: 120px;
+    }
+
+    .text-light,
+    .text-dark {
+        position: relative;
+        left: 210px;
+        top: 120px;
+      }
+  }
+  
+  
+  @media screen and (min-width: 501px) and (max-width: 700px) {
+
+    .App,
+    .Appdark{
+        width: 480px;
+        }
+
+    .loading_light{
+        position: relative;
+        left: 190px;
+        top: 120px;
+        color: white;
+    }
+
+    .loading_dark{
+        position: relative;
+        left: 190px;
+        top: 120px;
+    }
+
+    .text-light,
+    .text-dark {
+        position: relative;
+        left: 150px;
+        top: 120px;
+      }
+  }
+  
+  
+  @media screen and (max-width: 500px) {
+
+    .App,
+    .Appdark{
+        width: 480px;
+        }
+     .loading_light{
+        position: relative;
+        left: 150px;
+        top: 120px;
+        color: white;
+    }
+    .loading_dark{
+        position: relative;
+        left: 150px;
+        top: 120px;
+    }
+
+    .text-light,
+    .text-dark {
+        position: relative;
+        left: 100px;
+        top: 120px;
+      }
+  } 
+    
 

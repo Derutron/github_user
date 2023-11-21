@@ -1,6 +1,6 @@
 import React, { createContext, useState } from 'react';
 import axios from 'axios';
-// import { REACT_APP_GITHUBTOKEN } from '../dotenv';
+import '../css/Card.css' // Import your main stylesheet
 export const GithubContext = createContext();
 
 const UserContext = ({ children }) => {
@@ -9,7 +9,7 @@ const UserContext = ({ children }) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
- const apiToken = process.env.REACT_APP_GITHUBTOKEN;
+  const apiToken = process.env.REACT_APP_GITHUBTOKEN;
 
   const getGithubUser = async () => {
     try {
@@ -25,7 +25,7 @@ const UserContext = ({ children }) => {
       setUser(data);
       setError(null); // Clear any previous errors
     } catch (error) {
-      setError('No Result'); // Set the error message to 'no result'
+      setError('No Result'); // Set the error message to 'No Result'
       setLoading(false);
       setUser(null); // Clear user data when no result is found
     }
@@ -43,9 +43,10 @@ const UserContext = ({ children }) => {
       }}
     >
       {children}
+      {/* Apply styles based on the existence of an error */}
+      {error && <div className='error-container'><p className="error-message">{error}</p></div>}
     </GithubContext.Provider>
   );
 };
 
 export default UserContext;
-

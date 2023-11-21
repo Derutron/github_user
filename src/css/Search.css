@@ -129,7 +129,7 @@ button:hover {
   .group7dark{
       width: 630px;
       margin-right: 200px;
-      margin-left: 200px;
+      margin-left: 150px;
       }
 }
 
@@ -137,20 +137,29 @@ button:hover {
 @media screen and (min-width: 701px) and (max-width: 900px) {
   .group7,
   .group7dark{
-      width: 530px;
+      width: 450px;
       margin-right: 100px;
       margin-left: 100px;
       }
+
+      
+      input {
+        width: 200px;
+      } 
 }
 
 
 @media screen and (min-width: 501px) and (max-width: 700px) {
   .group7,
   .group7dark{
-      width: 430px;
+      width: 380px;
       margin-right: 50px;
       margin-left: 50px;
       }
+
+      input {
+        width: 200px;
+      } 
 }
 
 
@@ -158,9 +167,12 @@ button:hover {
   .group7,
   .group7dark{
       width: 330px;
-      margin-right: 10px;
-      margin-left: 10px;
+      margin-left: 50px;
       }
+
+      input {
+        width: 150px;
+      } 
 } 
 
 

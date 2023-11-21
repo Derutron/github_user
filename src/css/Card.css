@@ -1,6 +1,19 @@
+
+
+.error-message {
+    color: rgb(255, 0, 0); 
+    font-weight: bold; 
+    position: relative;
+    top: 120px;
+    right: 250px;
+  }
+
+
+
+
 .rectangle-copy{
 width: 730px;
-height: 419px;
+height: 500px;
 margin-right: auto;
 margin-left: auto;
 flex-shrink: 0;
@@ -13,7 +26,7 @@ margin-top: 10px;
 
 .rectangle-copydark{
 width: 730px;
-height: 419px;
+height: 500px;
 margin-right: auto;
 margin-left: auto;
 flex-shrink: 0;
@@ -34,6 +47,7 @@ margin-top: 10px;
 
 .cardgroup1{
     display: flex;
+
  
 }
 
@@ -97,6 +111,8 @@ left: 195px;
 top: 90px;
 }
 
+
+/* Profile bio */
 .cardgroup4{
     width: 480px;
     height: 25px;
@@ -126,6 +142,9 @@ opacity: 0.75;
 }
 
 
+  
+
+
 .cardgroup3{
     width: 450px;
     display: flex;
@@ -136,6 +155,8 @@ margin-top: 52px;
 margin-left: 30px;
 }
 
+
+/* repos follwers following  light screen*/
 .cardgroup6{
     width: 480px;
     height: 85px;
@@ -149,6 +170,7 @@ margin-left: 30px;
     background: #F6F8FF;
 }
 
+/* repos follwers following  dark screen*/
 .cardgroup6a{
     width: 480px;
     height: 85px;
@@ -238,6 +260,8 @@ bottom: 5px;
     align-items: center;
 }
 
+
+/* location twitter */
 .cardgroup12{
     width: 430px;
     display: flex;
@@ -267,6 +291,7 @@ margin-top: 17px;
     margin-top: 17px;
 }
 
+  /* url and office */
 .cardgroup13{
     width: 490px;
     display: flex;
@@ -320,11 +345,20 @@ margin-left: 20px;
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
  
+    .error-message {
+        color: rgb(255, 0, 0); 
+        font-weight: bold; 
+        position: relative;
+        margin-left: 0px;
+        top: 120px;
+        right: 400px;
+      }
+
     .rectangle-copy,
     .rectangle-copydark{
         width: 630px;
         margin-right: 200px;
-        margin-left: 200px;
+        margin-left: 150px;
         }
     
         /* Date Dark mode */
@@ -341,47 +375,363 @@ margin-left: 20px;
         left: -295px;
     }
 
+        /* Profile bio */
     .cardgroup4{
         position: relative;
         top: 80px;
         left: -110px;
+        width: 520px;
     }
-
+        /* repos follwers following  */
     .cardgroup5{
         position: relative;
-        top: -80px;
-        left: -300px;
+        top: -55px;
+        left: -310px;
     }
+
+    /* repos follwers following  */
+    .cardgroup6,
+    .cardgroup6a{
+       width: 520px;
+    }
+
+    /* location twitter */
+    .cardgroup12{
+        position: relative;
+        top: 300px;
+        left: 155px;
+    }
+
+        /* url and office */
+    .cardgroup13{
+        position: relative;
+        top: 310px;
+        left: 155px;
+    } 
   }
   
   
   @media screen and (min-width: 701px) and (max-width: 900px) {
+    .error-message {
+        width: 100px;
+        color: rgb(255, 0, 0); 
+        font-weight: bold; 
+        position: relative;
+        top: 120px;
+        right: 320px;
+      }
+
     .rectangle-copy,
     .rectangle-copydark{
-        width: 530px;
+        width: 450px;
         margin-right: 100px;
         margin-left: 100px;
         }
+
+              /* Date */
+     .cardtext2,
+     .cardtext2a{
+        position: relative;
+        top: 60px;
+        left: -295px;
+    }
+
+        /* Profile bio */
+    .cardgroup4{
+        position: relative;
+        top: 80px;
+        left: -140px;
+        width: 420px;
+    }
+        /* repos follwers following  */
+    .cardgroup5{
+        position: relative;
+        top: -55px;
+        left: -310px;
+    }
+
+    /* repos follwers following  */
+    .cardgroup6,
+    .cardgroup6a{
+       width: 420px;
+       position: relative;
+       left: 160px;
+    }
+
+    /* location twitter */
+    .cardgroup12{
+        position: relative;
+        top: 200px;
+        left: 120px;
+        width: 400px;
+    }
+
+        /* url and office */
+    .cardgroup13{
+        position: relative;
+        top: 210px;
+        left: 120px;
+        width: 420px;
+    }
+
+    .cardtext8,
+    .cardtext8a {
+        width: 200px;
+        overflow-wrap: break-word;
+    } 
   }
   
   
   @media screen and (min-width: 501px) and (max-width: 700px) {
     .rectangle-copy,
     .rectangle-copydark{
-        width: 430px;
+        height: 550px;
+        width: 380px;
         margin-right: 50px;
         margin-left: 50px;
         }
+
+              /* Date Dark mode */
+    .cardtext2,
+    .cardtext2a{
+        position: relative;
+        top: 60px;
+        left: -295px;
+    }
+
+
+      /* username text */
+      .cardtext1,
+      .cardtext1a{
+          width: 200px;
+          overflow-wrap: break-word;
+      }
+
+      /* date text */
+      .cardtext2,
+      .cardtext2a{
+          margin-top: 25px;
+      }
+
+
+              /* Login name */
+.cardtext3{
+    margin-top: 25px;
+/* position: absolute;
+left: 125px;
+top: 70px; */
+}
+
+
+        /* Profile bio */
+    .cardgroup4{
+        position: relative;
+        top: 80px;
+        left: -150px;
+        width: 350px;
+    }
+        /* repos follwers following  */
+    .cardgroup5{
+        position: relative;
+        top: -40px;
+        left: -350px;
+    }
+
+    /* repos follwers following  */
+    .cardgroup6,
+    .cardgroup6a{
+       width: 350px;
+    }
+    
+    .cardgroup8{
+        position: relative;
+        left: -150px;
+    }
+
+    .cardgroup9{
+        position: absolute;
+        left: 250px;
+    }
+
+
+    .cardgroup10{
+        position: relative;
+        top: -25px;
+        left: 160px;
+    }
+
+    .cardgroup14{
+        position: relative;
+        top: -40px;
+        left: 160px;
+    }
+
+
+    /* twitter */
+    .cardgroup11{
+        position: relative;
+        top: 50px;
+        left: -140px;
+    }
+
+    /* twitter text */
+    .cardtext7a.seven,
+    .cardtext7.seven{
+        position: relative;
+        top: 0px;
+        left: 20px;
+        width: 300px;
+    }
+
+
+    /* url api */
+    .cardtext8,
+    .cardtext8a {
+        width: 350px;
+        overflow-wrap: break-word;
+    } 
+
+    /* office */
+    .cardgroup15{
+        position: relative;
+        left: -200px;
+        top: 40px;
+    }
   }
   
+
+
   
   @media screen and (max-width: 500px) {
     .rectangle-copy,
     .rectangle-copydark{
+        height: 550px;
         width: 330px;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-left: 50px;
         }
+
+        .bitmap{
+            margin-top: 28px;
+            margin-left: 28px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50px;
+        }
+
+        /* username and date */
+        .cardgroup3{
+        width: 450px;
+        margin-top: 30px;
+        margin-left: 20px;
+        }
+
+        /* username text */
+        .cardtext1,
+        .cardtext1a{
+            width: 200px;
+            overflow-wrap: break-word;
+        }
+
+        /* date text */
+        .cardtext2,
+        .cardtext2a{
+            margin-top: 25px;
+        }
+
+        /* Login name */
+.cardtext3{
+    margin-top: 22px;
+position: absolute;
+left: 125px;
+top: 70px;
+}
+
+              /* Date Dark mode */
+              .cardtext2,
+              .cardtext2a{
+                  position: relative;
+                  top: 60px;
+                  left: -295px;
+              }
+          
+          
+                  /* Profile bio */
+              .cardgroup4{
+                  position: relative;
+                  top: 70px;
+                  left: -90px;
+                  width: 290px;
+              }
+                  /* repos follwers following  */
+              .cardgroup5{
+                  position: relative;
+                  top: -40px;
+                  left: -295px;
+              }
+          
+              /* repos follwers following  */
+              .cardgroup6,
+              .cardgroup6a{
+                 width: 300px;
+              }
+
+              /* Followers */
+              .cardgroup8{
+                  position: relative;
+                  left: -130px;
+              }
+
+              /* Following */
+              .cardgroup9{
+                  position: absolute;
+                  left: 200px;
+              }
+          
+          
+              .cardgroup10{
+                  position: relative;
+                  top: -25px;
+                  left: 160px;
+              }
+          
+              .cardgroup14{
+                  position: relative;
+                  top: -40px;
+                  left: 160px;
+              }
+          
+          
+              /* twitter */
+              .cardgroup11{
+                margin-top: 5px;
+                  position: relative;
+                  top: 50px;
+                  left: -140px;
+              }
+          
+              /* twitter text */
+              .cardtext7a.seven,
+              .cardtext7.seven{
+                  position: relative;
+                  top: 0px;
+                  left: 20px;
+                  width: 300px;
+              }
+          
+          
+              /* url api */
+              .cardtext8,
+              .cardtext8a {
+                  width: 250px;
+                  overflow-wrap: break-word;
+              } 
+          
+              /* office */
+              .cardgroup15{
+                  position: relative;
+                  left: -200px;
+                  top: 40px;
+              }
   } 
   
   

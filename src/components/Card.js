@@ -101,9 +101,9 @@ const Card = () => {
                                     <img className='twitter' src={Twitter} alt="Twitter" />
                                 )}
                                 {darkTheme ? (
-                                    <p className='cardtext7a'>{user.twitter_username || 'Not available'}</p>
+                                    <p className='cardtext7a seven'>{user.twitter_username || 'Not available'}</p>
                                 ) : (
-                                    <p className='cardtext7'>{user.twitter_username || 'Not available'}</p>
+                                    <p className='cardtext7 seven'>{user.twitter_username || 'Not available'}</p>
                                 )}
                             </div>
                         </div>
