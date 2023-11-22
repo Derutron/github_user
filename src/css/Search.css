@@ -86,10 +86,6 @@ input::placeholder {
   margin-right: 10px;
   width: 100px;
 height: 50px;
-/* position: relative;
-right: 10px; */
-
-
 }
 
 
@@ -101,16 +97,19 @@ button:hover {
 
 .error-container{
   position: absolute;
-  right: 120px;
-  top: 30px;
+  right: 380px;
+  top: 150px;
+  width: auto;
 }
 
 .error-message{
-  color: red;
+  color: rgb(255, 0, 13);
   font-family: monospace;
   font-size: 20px;
   font-weight: bold;
 }
+
+
 .error-message1{
   color: white;
   font-family: monospace;
@@ -143,7 +142,7 @@ button:hover {
       }
 
       
-      input {
+  input {
         width: 200px;
       } 
 }

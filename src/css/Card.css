@@ -1,16 +1,3 @@
-
-
-.error-message {
-    color: rgb(255, 0, 0); 
-    font-weight: bold; 
-    position: relative;
-    top: 120px;
-    right: 250px;
-  }
-
-
-
-
 .rectangle-copy{
 width: 730px;
 height: 500px;
@@ -32,7 +19,6 @@ margin-left: auto;
 flex-shrink: 0;
 border-radius: 15px;
 background: #1E2A47;
-/* box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.20); */
 position: relative;
 margin-top: 10px;
 }
@@ -47,12 +33,9 @@ margin-top: 10px;
 
 .cardgroup1{
     display: flex;
-
- 
 }
 
 .cardtext1{
-
 color: #2B3442;
 font-family: monospace;
 font-size: 26px;
@@ -137,13 +120,9 @@ font-family: monospace;
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
-line-height: 25px; /* 166.667% */
+line-height: 25px;
 opacity: 0.75;
 }
-
-
-  
-
 
 .cardgroup3{
     width: 450px;
@@ -313,7 +292,6 @@ margin-top: 17px;
     display: flex;
     justify-content: left;
     align-items: center;
-
 }
 
 .cardtext8{
@@ -336,24 +314,14 @@ font-weight: 400;
 line-height: normal;
 margin-top: 17px;
 margin-left: 20px;
-
 }
 
 
 
 
 
-@media screen and (min-width: 901px) and (max-width: 1200px) {
- 
-    .error-message {
-        color: rgb(255, 0, 0); 
-        font-weight: bold; 
-        position: relative;
-        margin-left: 0px;
-        top: 120px;
-        right: 400px;
-      }
 
+@media screen and (min-width: 901px) and (max-width: 1200px) {
     .rectangle-copy,
     .rectangle-copydark{
         width: 630px;
@@ -412,15 +380,6 @@ margin-left: 20px;
   
   
   @media screen and (min-width: 701px) and (max-width: 900px) {
-    .error-message {
-        width: 100px;
-        color: rgb(255, 0, 0); 
-        font-weight: bold; 
-        position: relative;
-        top: 120px;
-        right: 320px;
-      }
-
     .rectangle-copy,
     .rectangle-copydark{
         width: 450px;
@@ -481,6 +440,8 @@ margin-left: 20px;
     } 
   }
   
+
+
   
   @media screen and (min-width: 501px) and (max-width: 700px) {
     .rectangle-copy,
@@ -517,9 +478,6 @@ margin-left: 20px;
               /* Login name */
 .cardtext3{
     margin-top: 25px;
-/* position: absolute;
-left: 125px;
-top: 70px; */
 }
 
 
@@ -601,6 +559,8 @@ top: 70px; */
   
 
 
+
+
   
   @media screen and (max-width: 500px) {
     .rectangle-copy,
@@ -646,92 +606,92 @@ left: 125px;
 top: 70px;
 }
 
-              /* Date Dark mode */
-              .cardtext2,
-              .cardtext2a{
-                  position: relative;
-                  top: 60px;
-                  left: -295px;
-              }
+    /* Date Dark mode */
+    .cardtext2,
+    .cardtext2a{
+        position: relative;
+        top: 60px;
+        left: -295px;
+    }
           
           
-                  /* Profile bio */
-              .cardgroup4{
-                  position: relative;
-                  top: 70px;
-                  left: -90px;
-                  width: 290px;
-              }
-                  /* repos follwers following  */
-              .cardgroup5{
-                  position: relative;
-                  top: -40px;
-                  left: -295px;
-              }
-          
-              /* repos follwers following  */
-              .cardgroup6,
-              .cardgroup6a{
-                 width: 300px;
-              }
+        /* Profile bio */
+    .cardgroup4{
+        position: relative;
+        top: 70px;
+        left: -90px;
+        width: 290px;
+    }
+        /* repos follwers following  */
+    .cardgroup5{
+        position: relative;
+        top: -40px;
+        left: -295px;
+    }
 
-              /* Followers */
-              .cardgroup8{
-                  position: relative;
-                  left: -130px;
-              }
+    /* repos follwers following  */
+    .cardgroup6,
+    .cardgroup6a{
+        width: 300px;
+    }
 
-              /* Following */
-              .cardgroup9{
-                  position: absolute;
-                  left: 200px;
-              }
-          
-          
-              .cardgroup10{
-                  position: relative;
-                  top: -25px;
-                  left: 160px;
-              }
-          
-              .cardgroup14{
-                  position: relative;
-                  top: -40px;
-                  left: 160px;
-              }
-          
-          
-              /* twitter */
-              .cardgroup11{
-                margin-top: 5px;
-                  position: relative;
-                  top: 50px;
-                  left: -140px;
-              }
-          
-              /* twitter text */
-              .cardtext7a.seven,
-              .cardtext7.seven{
-                  position: relative;
-                  top: 0px;
-                  left: 20px;
-                  width: 300px;
-              }
-          
-          
-              /* url api */
-              .cardtext8,
-              .cardtext8a {
-                  width: 250px;
-                  overflow-wrap: break-word;
-              } 
-          
-              /* office */
-              .cardgroup15{
-                  position: relative;
-                  left: -200px;
-                  top: 40px;
-              }
+    /* Followers */
+    .cardgroup8{
+        position: relative;
+        left: -130px;
+    }
+
+    /* Following */
+    .cardgroup9{
+        position: absolute;
+        left: 200px;
+    }
+
+
+    .cardgroup10{
+        position: relative;
+        top: -25px;
+        left: 160px;
+    }
+
+    .cardgroup14{
+        position: relative;
+        top: -40px;
+        left: 160px;
+    }
+
+
+    /* twitter */
+    .cardgroup11{
+    margin-top: 5px;
+        position: relative;
+        top: 50px;
+        left: -140px;
+    }
+
+    /* twitter text */
+    .cardtext7a.seven,
+    .cardtext7.seven{
+        position: relative;
+        top: 0px;
+        left: 20px;
+        width: 300px;
+    }
+
+
+    /* url api */
+    .cardtext8,
+    .cardtext8a {
+        width: 250px;
+        overflow-wrap: break-word;
+    } 
+
+    /* office */
+    .cardgroup15{
+        position: relative;
+        left: -200px;
+        top: 40px;
+    }
   } 
   
   

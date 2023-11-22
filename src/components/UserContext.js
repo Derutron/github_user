@@ -44,7 +44,7 @@ const UserContext = ({ children }) => {
     >
       {children}
       {/* Apply styles based on the existence of an error */}
-      {error && <div className='error-container'><p className="error-message">{error}</p></div>}
+      {error && <p className="error-message">{error}</p>}
     </GithubContext.Provider>
   );
 };

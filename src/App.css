@@ -1,15 +1,8 @@
 /* ... (your other styles) */
-
-
-  
-  
-
-
-
 .App{
 width: 1440px;
 height: 800px;
-background: rgb(221, 125, 125);
+background: rgb(255, 255, 255);
 }
 
 .Appdark{
