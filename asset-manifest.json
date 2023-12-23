@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/github_user/static/css/main.7f060e79.css",
-    "main.js": "/github_user/static/js/main.0a26d932.js",
+    "main.css": "/github_user/static/css/main.576230d4.css",
+    "main.js": "/github_user/static/js/main.5e48785a.js",
     "static/js/787.d0fbee60.chunk.js": "/github_user/static/js/787.d0fbee60.chunk.js",
     "static/media/dark-office.svg": "/github_user/static/media/dark-office.512b9d5e15d8488224289b9cdd6c49af.svg",
     "static/media/001-office-building.svg": "/github_user/static/media/001-office-building.6ab03a9bd912b1f106583603163702fd.svg",
@@ -15,12 +15,12 @@
     "static/media/003-pin.svg": "/github_user/static/media/003-pin.64106916de08d49850120e1d1c72339f.svg",
     "static/media/dark-pin.svg": "/github_user/static/media/dark-pin.39bd0af5928b2dd55dea655602e4f9b4.svg",
     "index.html": "/github_user/index.html",
-    "main.7f060e79.css.map": "/github_user/static/css/main.7f060e79.css.map",
-    "main.0a26d932.js.map": "/github_user/static/js/main.0a26d932.js.map",
+    "main.576230d4.css.map": "/github_user/static/css/main.576230d4.css.map",
+    "main.5e48785a.js.map": "/github_user/static/js/main.5e48785a.js.map",
     "787.d0fbee60.chunk.js.map": "/github_user/static/js/787.d0fbee60.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f060e79.css",
-    "static/js/main.0a26d932.js"
+    "static/css/main.576230d4.css",
+    "static/js/main.5e48785a.js"
   ]
 }
